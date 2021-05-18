@@ -1,7 +1,11 @@
+.separator{
+    display: flex;
+    height: 50px;
+}
 
-
-
-
+.download{
+    display: flex;
+}
 
 
 
@@ -66,10 +70,6 @@
 
 /* DEBUG-FOOTER */
 
-.footer_top{
-    height: 150px;
-    background-color: orange;
-}
 
 .footer_bottom{
     height: 100px;
