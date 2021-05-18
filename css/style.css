@@ -28,12 +28,26 @@
     background-color: red;
 }
 
+/* DEBUG-MAIN */
+
+
+/* jumbotron */
 .debug .jumbotron{
     height: 300px;
     background-color: green;
 }
 
-/* DEBUG-MAIN */
+.debug .jumbotron .user_icon{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
+
+.debug .separator .line{
+    height: 4px;
+    width: 50px;
+    background-color: black;
+}
 
 .debug section{
     height: 300px;
