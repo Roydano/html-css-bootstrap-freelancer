@@ -37,7 +37,7 @@
     background-color: green;
 }
 
-.debug .jumbotron .user_icon{
+.debug .jumbotron .jumbo_icon{
     width: 150px;
     height: 150px;
     background-color: grey;
@@ -49,10 +49,12 @@
     background-color: black;
 }
 
-.debug section{
-    height: 300px;
-    background-color: yellow;
-    border: 1px solid blue;
+/* debug portfolio */
+
+.debug .box{
+    height: 200px;
+    background-color: darkorchid;
+    border: 1px solid red;
 }
 
 
