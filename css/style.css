@@ -36,6 +36,10 @@ nav{
     background-color: #1abc9c;
 }
 
+.download{
+    width: auto;
+}
+
 /* Separatore argomenti con stellina */
 .separator{
     height: 50px;
@@ -59,14 +63,6 @@ nav{
     border: 1px solid black;
 }
 
-
-/* debuh */
-
-/* debug about */
-.debug .download{
-    height: 50px;
-    width: 100px;
-}
 
 /* DEBUG-FOOTER */
 
