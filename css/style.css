@@ -9,6 +9,9 @@
 nav{
     height: 80px;
     background-color: #2c3e50;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 /* JUMBOTRON */
@@ -19,12 +22,22 @@ nav{
 
 #jumbotron .jumbo_icon{
     height: 200px;
-    
+}
+
+/* PORTFOLIO SECTION */
+
+#portfolio img{
+    width: 100%;
+}
+
+/* ABOUT SECTION */
+
+#about{
+    background-color: #1abc9c;
 }
 
 /* Separatore argomenti con stellina */
 .separator{
-    
     height: 50px;
 }
 
@@ -47,53 +60,12 @@ nav{
 }
 
 
-/* grandezze immagini */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* DEBUG */
-
-
-/* DEBUG-HEADER */
-
-
-/* DEBUG-MAIN */
-
-
-/* jumbotron */
-/* .debug #jumbotron{
-    background-color: green;
-} */
-
-
-
-
-
-/* debug portfolio */
-
-.debug .box{
-    height: 200px;
-    background-color: darkorchid;
-    border: 1px solid red;
-}
+/* debuh */
 
 /* debug about */
 .debug .download{
     height: 50px;
     width: 100px;
-    background-color: darkturquoise;
 }
 
 /* DEBUG-FOOTER */
