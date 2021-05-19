@@ -7,6 +7,10 @@
     padding-top: 80px;
 }
 
+.fs_100{
+    font-size: 100px;
+}
+
 /* HEADER */
 
 
@@ -36,9 +40,15 @@ nav{
     width: 100%;
 }
 
-.hover_bg{
-    background-color: #1abc9c;
+.hover i{
+    display: none;
 }
+.layover{
+    background-color: #1abc9c;
+    height: 100%;
+    width: 100%;
+}
+
 /* ABOUT SECTION */
 
 #about{
@@ -103,3 +113,15 @@ button:focus {
     
 }
 
+
+
+/* HOVER */
+
+.hover:hover i{
+    display: block;
+    cursor: pointer;
+}
+
+.hover:hover .layover img{
+    filter: opacity(0.5);
+}
