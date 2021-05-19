@@ -1,13 +1,37 @@
+/* NAVBAR */
+
+nav{
+    height: 80px;
+    background-color: #2c3e50;
+}
+
+
+
+
+
+/* Separatore argomenti con stellina */
 .separator{
     display: flex;
     height: 50px;
 }
 
-.download{
+
+/* bottoni e icone */
+.download,
+.social_icon{
     display: flex;
 }
 
+.circle{
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
 
+
+/* grandezze immagini */
 
 
 
@@ -27,24 +51,20 @@
 
 
 /* DEBUG-HEADER */
-.debug nav{
-    height: 80px;
-    background-color: red;
-}
+
 
 /* DEBUG-MAIN */
 
 
 /* jumbotron */
 .debug #jumbotron{
-    height: 300px;
     background-color: green;
 }
 
 .debug #jumbotron .jumbo_icon{
-    width: 150px;
-    height: 150px;
-    background-color: grey;
+    width: 200px;
+    height: 200px;
+    
 }
 
 .debug .separator .line{
@@ -73,5 +93,6 @@
 
 .footer_bottom{
     height: 100px;
+    line-height: 100px;
     background-color: pink;
 }
